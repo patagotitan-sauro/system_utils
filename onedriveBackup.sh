@@ -1,3 +1,6 @@
+#!/bin/bash
+
+echo "Backup to OneDrive started at: $(date +"%Y-%m-%d %H:%M:%S")"
 rsync -av --delete /home/rouse/Documents/ /home/rouse/OneDrive/Linux_Documents/
 
 echo "***"
