@@ -6,7 +6,6 @@
     --log-file=$HOME/rclone-backup.log \
     --log-level INFO \
 
-#Atenção revisar o folder do Onedrive antes de por o script em produção!!!!
 /usr/bin/rclone sync $HOME/Pictures OneDrive:Linux_Pictures \
     --log-file=$HOME/rclone-backup.log \
     --log-level INFO \
