@@ -4,7 +4,7 @@ Backup of the seagate HD
 """
 from pathlib import Path
 import subprocess
-from backup import sync_command, seagate_check
+from backup_lib import sync_command, seagate_check
 
 SEAGATE_BACKUP_UUID= '6eeeb7f8-1f9d-457e-8b0a-5969c123ea88' # Specify the UUID of your drive
 

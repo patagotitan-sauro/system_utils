@@ -1,0 +1,5 @@
+# monitor.py - CPU/RAM usage
+psutil
+
+# monitor.py - optional, GPU/VRAM usage
+GPUtil
